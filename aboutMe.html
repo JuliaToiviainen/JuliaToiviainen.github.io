@@ -17,61 +17,65 @@
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">Main Page</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="aboutMe.html">About Me</a></li>
-											<li><a href="connect.html">Contact</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
 				<!-- Main -->
 					<article id="main">
-						<header>
-							<h2>Who am I?</h2>
-							<p>Glad you made this far <br/>I would love to tell you more about how I got here</p>
+						<!-- Header -->
+						<header id="header">
+							<!-- <h1><a href="index.html">Back To Main Page</a></h1> -->
+								<nav id="nav">
+									<ul>
+										<li class="special">
+											<a href="#menu" class="menuToggle"><span>Menu</span></a>
+											<div id="menu">
+												<ul>
+													<li><a href="index.html">Home</a></li>
+													<li><a href="aboutMe.html">About Me</a></li>
+													<li><a href="connect.html">Contact</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</nav>
 						</header>
+
+
+						<header id="main-header">
+								<h2>Who am I?</h2>
+								<p>Glad you made this far! <br/>I would love to tell you more about how I got here...</p>
+								<p href="#one" class="more scrolly">More Info</p>
+							</header>
+						
 						<section class="wrapper style5">
 							<div class="inner">
-								<section>
+								<section id="one">
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<div class="image right">
 												<img src="images/Profile.jpeg" alt="" />
 											</div>
-											<h5>Information</h5>
+											<h3>About Me</h3>
 											<ul>
-												<li>24-year-old ambitious bachelor’s degree student from Westminster College, Salt Lake City</li>
-												<li>Majoring in Computer Science and minoring in Business</li>
-												<li>Passionate of sports, technology, business and good food</li>
-												<li>Appreciate a high-working morality mixed with laid-back humor on the side</li>
+												<li>Master of Finance student from University of Colorado Boulder</li>
+												<li>NCAA Division I skier #GoBuffs</li>
+												<li>Bachelor of Science in Computer Science at Westminster University, Salt Lake City, Utah</li>
+												<li>Passionate about impact investing, financial markets and technology</li>
+												<li>My goal is to find ways to combine finance and technology to  make impact investments while gaining financial returns</li>
 											</ul>
 										</div>
 									</div>
-									<div class="row">
+									<hr/>
+
+									<div class="space">
 										<script>
 										    function openResume() {
 										      var popup = window.open("images/Julia Toiviainen.pdf", "Resume", "width=800, height=1200");
 										    }
 										</script>
-										<body>
-										  <button onclick="openResume()">View Resume&nbsp;&nbsp;</button>
-
-										</body>
-										
+											<h5> If you want to know more, here's my resume</h5>
+										  <button class="button" onclick="openResume()">View Resume&nbsp;&nbsp;</button>
 									</div>
-									<hr />
+									<hr/>
+
 									<p>
 										As an athlete, I’ve always had to push myself out of my comfort zone. 
 										This has taught me persistence and made me able to thrive under pressure. 
@@ -82,20 +86,14 @@
 									</p>
 									<hr />
 								</section>
-								<h3>It all started with skiing</h3>
-									<p>Ever since I was a child, skiing has been a passion of mine. At 15, I decided to pursue my athletic dreams and moved away from home to race around Europe while also completing my high school diploma. 
-										Through my dedication and hard work, I received an offer to compete in NCAA Division I skiing at Westminster College in Utah, which I accepted without hesitation. 
-										This decision has proven to be the best one of my life so far. While pursuing my bachelor's degree in Business, I realized my growing interest in Computer Science, and I switched my major accordingly. 
-										Since then, I've been eager to explore the intersection of Business and Technology, and how I can combine these two passions.
-									</p>
+								<h3>It all started from skiing</h3>
+								<p>Since a kid I've been skiing and loving it. At the age of 15, I wanted to pursue my athletic dream and moved away from home. While completing my high school diploma I was racing around Europe. Eventually, all this led to me getting an offer to compete at NCAA division I skiing in Utah at Westminster University and then to University of Colorado Boulder. 
+									During my bachelor's degree I quickly realized my interest towards Computer Science and Finance. Since then I've been eager to learn more and I noticed that combining finance and technoology to be my new passion.</p>
 								<hr />
 								<h3>Where am I now</h3>
-								<p>
-									I am currently in the final stages of completing my Bachelor's degree in Science, and I am set to graduate this summer. 
-									Alongside this, I am thrilled to have secured a Global Technology Internship at Schroders for the same period. 
-									I am eager to gain new knowledge and experience through this opportunity, and I am confident that my past experiences and the skills I have acquired in school will prove valuable, 
-									enabling me to further enhance my abilities and learn more during my internship.
-								</p>
+								<p>This summer I got and opportunity to be a Global Technology intern at Schroders, where I got exposure to multiple financial and technolocial areas. 
+									The experience made me realize that financial industry is something I want to work in and I'm excited to see what the future brings!</p>
+									
 							</div>
 						</section>
 					</article>
@@ -127,7 +125,3 @@
 
 	</body>
 </html>
-
-function openResume() {
-  var popup = window.open("path/to/your/resume.pdf", "Resume", "width=600, height=600");
-}
